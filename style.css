@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.name{
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 70px;
+    top: 27px;
+
+}
+
+.nav{
+    background-color: black;
+    text-align: right;
+    height: 65px;
+}
+
+.nav-ul__li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+.nav-ul__li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-ul__li a::after{
+    content: " | ";
+}
+
+.nav-ul__li a:hover{
+    color: darkgoldenrod;
+}
+
+.main-section{
+    width: 80%;
+    height: 500px;
+    background-color: chocolate;
+    position: absolute;
+    right: 0;
+}
+
+.main-aside{
+    width: 20%;
+    height: 500px;
+    background-color: darkgray;
+    position: absolute;
+    left: 0;
+}
+
+.main-aside__p{
+    max-width: 200px;
+    height: 110px;
+    background-color: black;
+    color: white;
+    margin: 0 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 35px 10px;
+    border: orangered solid 2px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.footer{
+    background-color: rgb(107, 99, 99);
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-nos{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 0 10px;
+    position: absolute;
+    left: 70px;
+}    
+
+.t{
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    width: 25px;
+}
+
+.f{
+    position: absolute;
+    right: 120px;
+    bottom: 20px;
+    width: 25px;
+}
+
+.i{
+    position: absolute;
+    right: 170px;
+    bottom: 20px;
+    width: 25px;
+}
+
+.footer-bus{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 220px;    
+}
